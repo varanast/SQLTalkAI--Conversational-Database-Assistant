@@ -19,7 +19,7 @@ SQLTalkAI is an open-source Streamlit application that integrates LangChain with
 1. Clone the Repository
 ```
 git clone https://github.com/varanast/SQLTalkAI--Conversational-Database-Assistant.git
-cd SQLTalkAI--Conversational-Database-Assistant
+
 ```
 
 
