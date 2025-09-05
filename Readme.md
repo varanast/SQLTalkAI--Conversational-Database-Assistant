@@ -1,9 +1,9 @@
-SQLTalkAI: Conversational Database Assistant
+# SQLTalkAI: Conversational Database Assistant
 
 🚀 Query your databases using natural language instead of writing SQL!
 SQLTalkAI is an open-source Streamlit application that integrates LangChain with Groq LLaMA3 models to let you chat with your SQLite, PostgreSQL, or MySQL databases.
 
-🔑 Key Features
+# 🔑 Key Features
 
 💬 Chat with your database in plain English
 
@@ -13,25 +13,36 @@ SQLTalkAI is an open-source Streamlit application that integrates LangChain with
 
 🔒 Secure Groq API Key input for model authentication
 
-⚡ Optimized with caching for faster responses
+# ⚡ Optimized with caching for faster responses
 
-⚙️ Getting Started
+## ⚙️ Getting Started
 1. Clone the Repository
-git clone https://github.com/yourusername/sqltalkai.git
-cd sqltalkai
+```
+git clone https://github.com/varanast/SQLTalkAI--Conversational-Database-Assistant.git
+cd SQLTalkAI--Conversational-Database-Assistant
+```
 
-2. Create a Virtual Environment
+
+## 2. Create a Virtual Environment
+```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
-3. Install Requirements
+
+## 3. Install Requirements
+```
 pip install -r requirements.txt
+```
 
-4. Launch the App
+
+## 4. Launch the App
+```
 streamlit run app.py
+```
 
-🛠️ Configuration
-Database Setup
+# 🛠️ Configuration
+## Database Setup
 
 SQLite → Uses student.db by default
 
@@ -39,7 +50,7 @@ PostgreSQL → Enter host, user, password, and database name via sidebar
 
 MySQL → Provide connection details in the sidebar
 
-API Key Setup
+# API Key Setup
 
 You’ll need a Groq API Key to run LLaMA models:
 
@@ -49,7 +60,7 @@ Generate an API Key from the Keys section
 
 Paste it in the Streamlit sidebar
 
-📖 How to Use
+# 📖 How to Use
 
 Select the database type from the sidebar
 
@@ -61,7 +72,7 @@ The app generates and executes the SQL query behind the scenes
 
 Results are displayed in the chat interface instantly
 
-🧑‍💻 Tech Stack
+# 🧑‍💻 Tech Stack
 
 Streamlit → Interactive UI
 
@@ -73,7 +84,7 @@ SQLAlchemy → Database connection layer
 
 SQLite, PostgreSQL, MySQL → Supported databases
 
-🧩 Troubleshooting
+# 🧩 Troubleshooting
 
 ❌ Error: No module named streamlit.cli
 👉 Run with streamlit run app.py, not python streamlit app.py
@@ -81,7 +92,7 @@ SQLite, PostgreSQL, MySQL → Supported databases
 ❌ Error: Model decommissioned
 👉 Update model name in code to llama-3.1-8b-instant or llama-3.3-70b-versatile
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome! 🎉
 
@@ -93,10 +104,10 @@ Commit your changes
 
 Open a pull request
 
-📜 License
+# 📜 License
 
 Currently, this project has no license. Please add one (MIT/Apache 2.0) before using in production.
 
-🌟 Show Support
+# 🌟 Show Support
 
 If you like this project, please star the repo ⭐ and share your feedback!
