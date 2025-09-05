@@ -14,7 +14,7 @@ from langchain.agents.agent_types import AgentType
 # -----------------------------
 # Page & Sidebar Configuration
 # -----------------------------
-st.set_page_config(page_title="Chat with SQL (LangChain)", page_icon="🦜", layout="wide")
+st.set_page_config(page_title="SQLTalkAI", page_icon="🦜", layout="wide")
 st.title("🦜 LangChain + SQL: Natural Language to Queries")
 
 DB_CHOICES = ("SQLite (local student.db)", "PostgreSQL", "MySQL")
